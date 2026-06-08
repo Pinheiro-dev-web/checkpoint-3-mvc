@@ -1,0 +1,15 @@
+@{
+    ViewData["Title"] = "Perfil do Aluno";
+}
+
+<div style="font-family: Arial, sans-serif; max-width: 400px; margin: 50px auto; padding: 20px; border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <h2 style="color: #007bff; text-align: center;">Perfil do Aluno</h2>
+    <hr>
+    <p><strong>Nome:</strong> @ViewBag.Nome</p>
+    <p><strong>Curso:</strong> @ViewBag.Curso</p>
+    <p><strong>Semestre:</strong> @ViewBag.Semestre</p>
+    
+    <div style="margin-top: 20px; text-align: center;">
+        <a href="/Aluno/Detalhes/1" style="background-color: #007bff; color: white; padding: 10px 15px; text-decoration: none; border-radius: 4px; font-weight: bold;">Ver Detalhes do Aluno</a>
+    </div>
+</div>
